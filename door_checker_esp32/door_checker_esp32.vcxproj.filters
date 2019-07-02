@@ -16,6 +16,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="door_checker_esp32.ino" />
+    <None Include="HTTP_server.ino" />
   </ItemGroup>
- 
+  <ItemGroup>
+    <ClInclude Include="__vm\.door_checker_esp32.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
