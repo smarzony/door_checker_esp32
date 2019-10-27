@@ -4,7 +4,7 @@ void handleRootPath() {
 
 String getStatusPage()
 {
-	String page = "<html lang=pl-PL><head><meta http-equiv='refresh' content='10'/>";
+	String page = "<html lang=pl-PL><head><meta http-equiv='refresh' content='30'/>";
 	page += "<title>Door: ";
 	/*if (reedSwitchState)
 		page += "unlocked";
@@ -17,18 +17,18 @@ String getStatusPage()
 	page += "<h3>Inputs</h3>";
 	page += "Door lock status: ";
 	page += "<b>";
-	/*if (reedSwitchState)
+	if (contactron_state)
 		page += "Unlocked";
 	else
-		page += "Locked";*/
+		page += "Locked";
 	page += "</b><br>";
-
+	/*
 	page += "Sensor battery percentage: <b>";
-	//page += (String)battery_percentage;
+	page += (String)battery_percentage;
 	page += "%</b><br>";
 
 	page += "Sensor battery voltage: <b>";
-	/*page += (String)(voltage_value / 1000);
+	page += (String)(voltage_value / 1000);
 	page += ".";
 	page += (String)(voltage_value % 1000);
 	page += " V</b><br>";*/
@@ -39,7 +39,7 @@ String getStatusPage()
 	//-------------------------------------
 	page += "<h3>Memory</h3>";
 	page += "Free mem: <b>";
-	page += ESP.getFreeHeap();
+	page += free_heap;
 	page += " B</b><br>";
 	page += "</body></html>";
 	return page;

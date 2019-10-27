@@ -127,8 +127,10 @@ C:\Users\Piotr\AppData\Local\Temp\VMBuilds\door_checker_esp32\esp32_esp32doit-de
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\cores\esp32/Esp.h \
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\cores\esp32/Arduino.h \
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\variants\doitESP32devkitV1/pins_arduino.h \
- C:\Users\Piotr\Documents\Arduino\libraries\SimpleTimer/SimpleTimer.h \
- C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\libraries\WebServer\src/HTTP_Method.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\libraries\HTTPClient\src/HTTPClient.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\libraries\WiFi\src/WiFiClient.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\cores\esp32/Client.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\libraries\WiFiClientSecure\src/WiFiClientSecure.h \
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\libraries\WiFi\src/WiFi.h \
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\cores\esp32/Print.h \
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\cores\esp32/IPv6Address.h \
@@ -146,10 +148,6 @@ C:\Users\Piotr\AppData\Local\Temp\VMBuilds\door_checker_esp32\esp32_esp32doit-de
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/lwip/lwip/ip_addr.h \
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/lwip/lwip/opt.h \
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/lwip/lwipopts.h \
- C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/newlib/time.h \
- C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/newlib/machine/time.h \
- C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/newlib/unistd.h \
- C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/newlib/sys/unistd.h \
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/newlib/sys/time.h \
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/newlib/sys/fcntl.h \
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/newlib/sys/_default_fcntl.h \
@@ -172,12 +170,45 @@ C:\Users\Piotr\AppData\Local\Temp\VMBuilds\door_checker_esp32\esp32_esp32doit-de
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\libraries\WiFi\src/WiFiAP.h \
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\libraries\WiFi\src/WiFiScan.h \
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\libraries\WiFi\src/WiFiClient.h \
- C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\cores\esp32/Client.h \
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\libraries\WiFi\src/WiFiServer.h \
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\cores\esp32/Server.h \
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\libraries\WiFi\src/WiFiUdp.h \
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\cores\esp32/Udp.h \
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\cores\esp32/cbuf.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\libraries\WiFiClientSecure\src/ssl_client.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/platform.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls_port/mbedtls/esp_config.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/check_config.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/platform_time.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/net.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/net_sockets.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/ssl.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/bignum.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/ecp.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/ssl_ciphersuites.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/pk.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/md.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/rsa.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/ecdsa.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/cipher.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/x509_crt.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/x509.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/asn1.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/x509_crl.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/dhm.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/ecdh.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/debug.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/ssl.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/entropy.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/sha512.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/ctr_drbg.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/aes.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls_port/aes_alt.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/esp32/hwcrypto/aes.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/esp32/rom/aes.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0/tools/sdk/include/mbedtls/mbedtls/error.h \
+ C:\Users\Piotr\Documents\Arduino\libraries\SimpleTimer/SimpleTimer.h \
+ C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\libraries\WebServer\src/HTTP_Method.h \
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\libraries\WebServer\src/WebServer.h \
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\libraries\WebServer\src/HTTP_Method.h \
  C:\Users\Piotr\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.0\libraries\WebServer\src/detail/RequestHandler.h \
